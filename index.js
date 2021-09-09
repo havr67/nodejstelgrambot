@@ -1,7 +1,7 @@
 const TelegramApi = require('node-telegram-bot-api');
 const { REPL_MODE_SLOPPY } = require('repl');
 
-const BOT_TOKEN = '1883008475:AAH3Gv_iVDpQFOiGS0VVFnKH7Og2sPqs5PA';
+const BOT_TOKEN = '';
 
 const bot = new TelegramApi(BOT_TOKEN, {polling:true})
 
